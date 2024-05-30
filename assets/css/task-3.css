@@ -1,0 +1,80 @@
+/* Roots */
+:root {
+  --mainColor: #0a66c2;
+}
+body {
+  background-color: #fff;
+}
+/* start main */
+main {
+  width: 400px;
+  margin: 30px auto;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #5cc3ff;
+  border-radius: 7px;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  main {
+    width: 400px;
+  }
+}
+@media (min-width: 992px) {
+  main {
+    width: 970px;
+  }
+}
+main h2 {
+  text-align: center;
+  margin: 20px 0;
+  text-transform: capitalize;
+  font-size: 30px;
+  color: #fff;
+}
+
+main form {
+  display: flex;
+  flex-direction: column;
+}
+main form .input {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+main form .input > input {
+  padding: 10px;
+  width: 100%;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 7px;
+}
+main form .input > input:focus {
+  border-bottom-color: #42bda3;
+}
+main form .input > textarea {
+  padding: 10px;
+  width: 100%;
+  height: 200px;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 7px;
+}
+main form .buttons {
+  text-align: left;
+}
+main form .buttons button {
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: none;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  margin: 10px 0;
+}
+/* end main */
